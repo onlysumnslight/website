@@ -1,6 +1,7 @@
 html {
     height: 100%;
     margin: 0;
+    width: 100%;
 }
 
 body {
@@ -8,8 +9,9 @@ body {
     background-image: linear-gradient(to right,black,#0c121d, #19293b);
     font-family: "Zilla Slab", serif;
     min-height: 100vh;
-    width: 75%;
+    width: 900px;
 }
+
 
 header {
     display: flex;

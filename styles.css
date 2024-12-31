@@ -1,0 +1,147 @@
+html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    margin: auto;
+    background-image: linear-gradient(to right,black,#0c121d, #19293b);
+    font-family: "Zilla Slab", serif;
+    min-height: 100vh;
+    width: 75%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1em;
+    color: white;
+    border-radius: 1em;
+    width: fit-content;
+    margin:auto;
+    margin-top: 1em;
+    text-align: center;
+    
+}
+
+.header img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 1em;
+}
+
+.header .text {
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.header .text h1 {
+    padding-top: 1em;
+    color: orange;
+}
+
+.header .text p {
+    padding-top: 1em;
+    text-align-last: center;
+}
+
+.container {
+    font-size: 1.2rem;
+    height: 70px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    
+}
+
+.navbar ul {
+    display: flex;
+    
+}
+
+.container .navbar {
+    padding-top: 1em;
+    justify-content: space-around;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    
+}
+  
+.container .navbar ul li {
+    padding: 10px;
+    margin: 0 10px;
+}
+  
+.navbar a {
+    color: whitesmoke;
+    font-weight: bold;
+    text-decoration: none;
+}
+  
+.navbar a:hover {
+    color: rgb(131, 131, 131);
+}
+
+.section-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    padding-top: 1em;
+}
+
+.portfolio {
+    margin-top: 3em;
+    padding: 2em;
+    border: 1px solid transparent;
+    border-radius: 0.5em;
+    opacity: 0.99;
+}
+
+.portfolio:hover {
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.portfolio .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.portfolio .text {
+    color: whitesmoke;
+    padding-top: 1em;
+    text-align: center;
+}
+
+.portfolio img {
+    object-fit: cover;
+    transition: transform 0.1s ease-in-out;
+    border-radius: 1em;
+    height: 350px;
+    width: 350px;
+}
+
+.portfolio img:hover {
+    transform: scale(1.1);
+}
+
+hr {
+    margin-top: 2em;
+    width: 75%;
+    opacity: 0.5;
+}

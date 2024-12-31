@@ -9,9 +9,8 @@ body {
     background-image: linear-gradient(to right,black,#0c121d, #19293b);
     font-family: "Zilla Slab", serif;
     min-height: 100vh;
-    width: 900px;
+    
 }
-
 
 header {
     display: flex;
@@ -73,6 +72,7 @@ header {
 .container .navbar {
     padding-top: 1em;
     justify-content: space-around;
+    background-color: black;
 }
 
 .navbar ul li {
@@ -132,11 +132,15 @@ header {
 
 .portfolio img {
     object-fit: cover;
+    transition: transform 0.1s ease-in-out;
     border-radius: 1em;
-    height: 350px;
-    width: 350px;
+    height: 200px;
+    width: 200px;
 }
 
+.portfolio img:hover {
+    transform: scale(1.1);
+}
 
 hr {
     margin-top: 2em;

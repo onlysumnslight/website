@@ -130,15 +130,11 @@ header {
 
 .portfolio img {
     object-fit: cover;
-    transition: transform 0.1s ease-in-out;
     border-radius: 1em;
     height: 350px;
     width: 350px;
 }
 
-.portfolio img:hover {
-    transform: scale(1.1);
-}
 
 hr {
     margin-top: 2em;

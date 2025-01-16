@@ -132,13 +132,29 @@ header {
 
 .portfolio img {
     object-fit: cover;
+    transition: transform 0.1s ease-in-out;
     border-radius: 1em;
     height: 200px;
     width: 200px;
+}
+
+.portfolio img:hover {
+    transform: scale(1.1);
 }
 
 hr {
     margin-top: 2em;
     width: 75%;
     opacity: 0.5;
+}
+
+.page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+.page h1 {
+    color: white;
 }

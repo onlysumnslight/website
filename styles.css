@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    background: linear-gradient(to right, black,black, #9198e5);
+    background: linear-gradient(to right,#180a28, black,black, #180a28);
     
     color: whitesmoke;
     margin: auto;
@@ -42,6 +42,16 @@ li:hover {
     transition: 0.35s ease-in-out;  
 }
 
+ul li.title {
+    font-size: 36px;
+    background-color: transparent;
+}
+
+li.title:hover {
+    cursor: default;
+    background-color: transparent;
+}
+
 a {
     text-decoration: none;
     color: whitesmoke;
@@ -50,7 +60,7 @@ a {
 a:hover {
     font-weight: 900;
     --p: 100%;
-    color: rgb(116, 116, 116);
+    color: rgb(0, 0, 0);
     cursor: pointer;
     transition: 0.35s ease-in-out;  
 }
@@ -64,8 +74,21 @@ aside {
     gap: 1em;
 }
 
-aside i {
-    font-size: 20px;
+aside a {
+    font-size: 15px;
+    font-weight: 500;
+    background: linear-gradient(#ffffff 0 0) var(--p, 0) / var(--p, 0) no-repeat;
+    transition: 0.35s;
+    display: inline;
+}
+
+aside a:hover {
+    font-weight: 900;
+    --p: 100%;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: 0.35s ease-in-out;
+    width: fit-content;
 }
 
 .main {
